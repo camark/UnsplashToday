@@ -39,7 +39,7 @@ namespace UnsplashToday
 
             var save_file_name = str_guid + ".jpg";
 
-            var img_dir = DirUtil.getBasePath() + @"\img\";
+            var img_dir = DirUtil.getBasePath() + @"img\";
 
             if (!Directory.Exists(img_dir))
             {
